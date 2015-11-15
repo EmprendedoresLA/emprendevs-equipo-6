@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/nombre"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textCapSentences"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/apellido"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textCapSentences"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tel"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/fechanaciomente"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/sexo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <Spinner
+                    android:id="@+id/spinnerSexo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/localidad"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextLocalidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="textCapSentences"
+                    android:text="Rosario"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp" >
+
+                <ImageView
+                    android:layout_width="@dimen/edittext_registracion"
+                    android:layout_height="@dimen/edittext_registracion"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/mail"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/edittext_registracion" />
+
+                <EditText
+                    android:id="@+id/editTextMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/edittext_registracion"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButtonSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/textViewIdApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

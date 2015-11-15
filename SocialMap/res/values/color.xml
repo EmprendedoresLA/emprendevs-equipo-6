@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary_red">#DC4437</color>
+    <color name="color_primary_green"> #4caf50</color>
+    <color name="color_shadow">#44000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="color_primary_cyan">#00BCD4</color>
+    <color name="color_dark_cyan">#00838F</color>
+    <color name="color_light_cyan">#E0F7FA</color>
+    <color name="color_medio_cyan">#80DEEA</color>
+    
+</resources>
